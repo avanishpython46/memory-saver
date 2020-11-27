@@ -10,6 +10,6 @@ def delete_files():
                   content = f.read()
             if len(content)==0:
                   os.remove(files)
-            print(count)
+            print("Total" ,count)
               
 delete_files()
